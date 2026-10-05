@@ -6,16 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Learning Portfolio - A2</title>
-    <style>
-        .hero-section {
-            background-color: #f8f9fa;
-            padding: 60px 0;
-        }
-        .portfolio-card img {
-            height: 200px;
-            object-fit: cover;
-        }
-    </style>
 </head>
 <body>
 
@@ -42,11 +32,11 @@
                 <li><strong>ความสนใจ:</strong> Web Development</li>
             </ul>
             <div class="img-container">
-                <img src="media/me.png" alt="Pattarakorn" width="200">
+                <img src="media/me.png" alt="Pattarakorn" class="img-fluid" style="max-width: 200px;">
             </div>
         </section>
-
-        <section id="built">
+    <div class="row g-3">
+        <section id="built" class="col-12 col-md-6">
             <h2>What I Built</h2>
             <p>
                 Learning Portfolio ประกอบด้วยส่วนแนะนำตัวเอง งานที่สร้าง ขั้นตอนการทำงาน และบทเรียนที่ได้รับ
@@ -58,7 +48,7 @@
             </p>
         </section>
 
-        <section id="how">
+        <section id="how" class="col-12 col-md-6">
             <h2>How I Built It</h2>
             <p>
                 ผมพัฒนางานนี้โดยเริ่มจากการออกแบบโครงสร้างข้อมูลด้วย HTML ใช้ Semantic Tags เช่น 
@@ -69,7 +59,7 @@
                 <strong>เครื่องมือและแหล่งเรียนรู้:</strong> ใช้ VS Code ในการเขียนโค้ด และศึกษาจากเอกสารการเรียนวิชา CS100
             </p>
         </section>
-
+    </div>
         <section id="reflection">
             <h2>Reflection</h2>
             <ol>
@@ -88,7 +78,7 @@
             </ol>
 
             <div class="mid">
-                <video src="media/Ultrasmooth.mp4" width="320" controls>
+                <video src="media/Ultrasmooth.mp4" class="mw-100" controls>
                     Video not supported
                 </video>
             </div>
